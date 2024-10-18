@@ -71,29 +71,3 @@ def insertar_datos(cursor, nombre_tabla, datos):
 
     if contDuplicados > 0:
         registro.registrar(f"Se detectaron {contDuplicados} datos duplicados. Estos no fueron agregados a la tabla {nombre_tabla}.")
-
-
-# CSV
-# elif nombre_tabla == 'materias':
-#     cursor.execute('''
-#             INSERT INTO materias (nombre, profesor, carrera, duracion)
-#             VALUES (?, ?, ?, ?)
-#         ''', (fila['nombre'], fila['profesor'], fila['carrera'], fila['duracion']))
-# elif nombre_tabla == 'carreras':
-#     cursor.execute('''
-#             INSERT INTO carreras (nombre, duracion, titulo)
-#             VALUES (?, ?, ?)
-#         ''', (fila['nombre'], fila['duracion'], fila['titulo']))
-            
-
-# JSON
-#        elif nombre_tabla == 'alumnos_json':
-#            cursor.execute(f'''INSERT INTO {nombre_tabla} (legajo, apellido, nombre, carrera) 
-#                            VALUES (?, ?, ?, ?)''', 
-#                            (fila.get('legajo'), fila.get('apellido'), fila.get('nombre'), fila.get('carrera')))
-            
-#        elif nombre_tabla == 'profesores_json':
-#            cursor.execute(f'''INSERT INTO {nombre_tabla} (id, apellido, nombre, dni, materia) 
-#                            VALUES (?, ?, ?, ?, ?)''', 
-#                            (fila.get('id'), fila.get('apellido'), fila.get('nombre'), fila.get('dni'), fila.get('materia')))
-

@@ -7,10 +7,10 @@ def main():
     
     try:
         # Importar datos
-        alumnos = 'datos/alumnos.csv'
-        profesores = 'datos/profesores.csv'
-        materias = 'datos/materias.json'
-        carreras = 'datos/carreras.json'
+        alumnos = 'ingDatos/datos/alumnos.csv'
+        profesores = 'ingDatos/datos/profesores.csv'
+        materias = 'ingDatos/datos/materias.json'
+        carreras = 'ingDatos/datos/carreras.json'
         
         registro.registrar("Importando alumnos...")
         alumnos_csv = importar.importar_csv(alumnos)
