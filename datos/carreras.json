@@ -1,0 +1,107 @@
+[
+    {
+        "nombre": "Ingeniería en Sistemas",
+        "duracion": "5 años",
+        "titulo": "Ingeniero en Sistemas"
+    },
+    {
+        "nombre": "Medicina",
+        "duracion": "6 años",
+        "titulo": "Médico"
+    },
+    {
+        "nombre": "Arquitectura",
+        "duracion": "5 años",
+        "titulo": "Arquitecto"
+    },
+    {
+        "nombre": "Derecho",
+        "duracion": "5 años",
+        "titulo": "Abogado"
+    },
+    {
+        "nombre": "Psicología",
+        "duracion": "5 años",
+        "titulo": "Licenciado en Psicología"
+    },
+    {
+        "nombre": "Contador Público",
+        "duracion": "4 años",
+        "titulo": "Contador Público"
+    },
+    {
+        "nombre": "Biología",
+        "duracion": "5 años",
+        "titulo": "Licenciado en Biología"
+    },
+    {
+        "nombre": "Ingeniería Industrial",
+        "duracion": "5 años",
+        "titulo": "Ingeniero Industrial"
+    },
+    {
+        "nombre": "Historia",
+        "duracion": "4 años",
+        "titulo": "Licenciado en Historia"
+    },
+    {
+        "nombre": "Educación Física",
+        "duracion": "4 años",
+        "titulo": "Profesor de Educación Física"
+    },
+    {
+        "nombre": "Ingeniería Civil",
+        "duracion": "5 años",
+        "titulo": "Ingeniero Civil"
+    },
+    {
+        "nombre": "Química",
+        "duracion": "5 años",
+        "titulo": "Licenciado en Química"
+    },
+    {
+        "nombre": "Marketing",
+        "duracion": "4 años",
+        "titulo": "Licenciado en Marketing"
+    },
+    {
+        "nombre": "Economía",
+        "duracion": "5 años",
+        "titulo": "Licenciado en Economía"
+    },
+    {
+        "nombre": "Administración de Empresas",
+        "duracion": "4 años",
+        "titulo": "Licenciado en Administración"
+    },
+    {
+        "nombre": "Arte",
+        "duracion": "4 años",
+        "titulo": "Licenciado en Artes"
+    },
+    {
+        "nombre": "Antropología",
+        "duracion": "5 años",
+        "titulo": "Licenciado en Antropología"
+    },
+    {
+        "nombre": "Enfermería",
+        "duracion": "4 años",
+        "titulo": "Licenciado en Enfermería"
+    },
+    {
+        "nombre": "Geología",
+        "duracion": "5 años",
+        "titulo": "Licenciado en Geología"
+    },
+    {
+        "nombre": "Relaciones Internacionales",
+        "duracion": "4 años",
+        "titulo": "Licenciado en Relaciones Internacionales"
+    },
+    {
+        "nombre": "Ingeniería Electrónica",
+        "duracion": "5 años",
+        "titulo": "Ingeniero Electrónico"
+    }
+]

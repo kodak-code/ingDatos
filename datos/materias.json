@@ -1,0 +1,122 @@
+[
+    {
+        "nombre": "Matemáticas Avanzadas",
+        "profesor": "López María",
+        "carrera": "Ingeniería en Sistemas",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Química Orgánica",
+        "profesor": "Sánchez José",
+        "carrera": "Medicina",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Física Teórica",
+        "profesor": "Martínez Laura",
+        "carrera": "Arquitectura",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Derecho Civil",
+        "profesor": "Gómez Andrés",
+        "carrera": "Derecho",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Psicología Cognitiva",
+        "profesor": "Pérez Sara",
+        "carrera": "Psicología",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Contabilidad Financiera",
+        "profesor": "Moreno Diego",
+        "carrera": "Contador Público",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Historia de la Filosofía",
+        "profesor": "Rivas Claudia",
+        "carrera": "Historia",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Geografía Humana",
+        "profesor": "Castro Esteban",
+        "carrera": "Educación Física",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Educación Física Superior",
+        "profesor": "Romero Elena",
+        "carrera": "Educación Física",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Literatura Comparada",
+        "profesor": "Fernández Diego",
+        "carrera": "Literatura",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Ética Profesional",
+        "profesor": "Soto Carmen",
+        "carrera": "Ingeniería en Sistemas",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Estadística",
+        "profesor": "López Julio",
+        "carrera": "Economía",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Microbiología",
+        "profesor": "Martínez Alicia",
+        "carrera": "Medicina",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Introducción a la Programación",
+        "profesor": "Hernández Ricardo",
+        "carrera": "Ingeniería en Sistemas",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Diseño Gráfico",
+        "profesor": "González Marta",
+        "carrera": "Arte",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Teoría del Conocimiento",
+        "profesor": "Pérez Simón",
+        "carrera": "Filosofía",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Desarrollo de Software",
+        "profesor": "Ramos Patricia",
+        "carrera": "Ingeniería en Sistemas",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Redacción Académica",
+        "profesor": "Castillo Leonardo",
+        "carrera": "Comunicación",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Historia Contemporánea",
+        "profesor": "Bermúdez Tania",
+        "carrera": "Historia",
+        "duracion": "1 cuatrimestre"
+    },
+    {
+        "nombre": "Psicología Social",
+        "profesor": "Morales Victor",
+        "carrera": "Psicología",
+        "duracion": "1 cuatrimestre"
+    }
+]
