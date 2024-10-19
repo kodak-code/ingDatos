@@ -1,5 +1,0 @@
-Registro de actividades - 2024-10-14 13:23:39.796891
-2024-10-14 13:23:39.797898 - Importando archivo CSV
-2024-10-14 13:23:39.799917 - Importando archivo JSON
-2024-10-14 13:23:39.800924 - Creando tablas e insertando datos
-2024-10-14 13:23:39.827287 - Base de datos actualizada y conexión cerrada
