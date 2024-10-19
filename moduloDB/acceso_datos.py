@@ -8,28 +8,32 @@ def insertar_datos_csv():
     c = conn.cursor()
 
     carpeta = os.getcwd() + '/moduloCSV/'
-    archivo = open(carpeta + 'compras-y-contrataciones-sss-20190826.csv', 'r', encoding='utf-8')
-    lista = csv.reader(archivo, delimiter=',')
-    next(lista)
+    try:
+        archivo = open(carpeta + 'compras-y-contrataciones-sss-20190826.csv', 'r', encoding='utf-8')
+    except FileNotFoundError:
+        print("El fichero al que se intenta acceder no existe.")
+    else:
+        lista = csv.reader(archivo, delimiter=',')
+        next(lista)
 
-    for linea in lista:
-        # mensaje
-        mensaje = f"Ingresando datos: {linea}"
-        print(mensaje)
-        registrar_actividad(mensaje)  # registramos
+        for linea in lista:
+            # mensaje
+            mensaje = f"Ingresando datos: {linea}"
+            print(mensaje)
+            registrar_actividad(mensaje)  # registramos
 
-        strSQL = "INSERT INTO Estado VALUES(?, ?)"
-        conn.execute(strSQL, (linea[0], linea[3]))
+            strSQL = "INSERT INTO Estado VALUES(?, ?)"
+            conn.execute(strSQL, (linea[0], linea[3]))
 
-        strSQL = "INSERT INTO Contratacion VALUES(?, ?)"
-        conn.execute(strSQL, (linea[0], linea[2]))
+            strSQL = "INSERT INTO Contratacion VALUES(?, ?)"
+            conn.execute(strSQL, (linea[0], linea[2]))
 
-        strSQL = "INSERT INTO Fecha VALUES(?, ?)"
-        conn.execute(strSQL, (linea[0], linea[4]))
+            strSQL = "INSERT INTO Fecha VALUES(?, ?)"
+            conn.execute(strSQL, (linea[0], linea[4]))
 
-        strSQL = "INSERT OR IGNORE INTO Practica VALUES(?, ?, ?, ?, ?, ?)"
-        conn.execute(strSQL, (linea[0], linea[1], linea[2], linea[3], linea[4], linea[5]))
+            strSQL = "INSERT OR IGNORE INTO Practica VALUES(?, ?, ?, ?, ?, ?)"
+            conn.execute(strSQL, (linea[0], linea[1], linea[2], linea[3], linea[4], linea[5]))
 
-    conn.commit()
-    archivo.close()
-    conn.close()
+        conn.commit()
+        archivo.close()
+        conn.close()
